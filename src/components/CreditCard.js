@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import IconText from "./IconText";
 import creditCard from "../assets/credit-card.jpg";
 import "./CreditCard.scss";
 
@@ -13,48 +14,44 @@ const CreditCard = () => (
         </Row>
         <Row>
           <Col xs={12} lg={6} className="mb-4">
-            <Row>
-              <Col xs={2} className="d-flex justify-content-center">
-                <FontAwesomeIcon icon="credit-card" size="2x" color="#f05656" />
-              </Col>
-              <Col xs={10} className="h5 text-muted">
-                Crédito Pessoal
-              </Col>
-            </Row>
+            <IconText
+              icon="credit-card"
+              size={2}
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
+              Crédito Pessoal
+            </IconText>
           </Col>
           <Col xs={12} lg={6} className="mb-4">
-            <Row>
-              <Col xs={2} className="d-flex justify-content-center">
-                <FontAwesomeIcon
-                  icon="shopping-cart"
-                  size="2x"
-                  color="#f05656"
-                />
-              </Col>
-              <Col xs={10} className="h5 text-muted">
-                Pagamentos Online
-              </Col>
-            </Row>
+            <IconText
+              icon="shopping-cart"
+              size={2}
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
+              Pagamentos Online
+            </IconText>
           </Col>
           <Col xs={12} lg={6} className="mb-4">
-            <Row>
-              <Col xs={2} className="d-flex justify-content-center">
-                <FontAwesomeIcon icon="mobile" size="2x" color="#f05656" />
-              </Col>
-              <Col xs={10} className="h5 text-muted">
-                APP
-              </Col>
-            </Row>
+            <IconText
+              icon="mobile"
+              size={2}
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
+              APP
+            </IconText>
           </Col>
           <Col xs={12} lg={6} className="mb-4">
-            <Row>
-              <Col xs={2} className="d-flex justify-content-center">
-                <FontAwesomeIcon icon="wallet" size="2x" color="#f05656" />
-              </Col>
-              <Col xs={10} className="h5 text-muted">
-                Carteira Digital
-              </Col>
-            </Row>
+            <IconText
+              icon="wallet"
+              size={2}
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
+              Carteira Digital
+            </IconText>
           </Col>
         </Row>
       </Col>
