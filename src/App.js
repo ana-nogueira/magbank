@@ -7,6 +7,8 @@ import CardList from "./components/CardList";
 import posts from "./data/posts";
 import CenteredButton from "./components/CenteredButton";
 import Institutional from "./components/Institutional";
+import Faq from "./components/FAQ";
+import Footer from "./components/Footer";
 import "./App.scss";
 
 const App = () => (
@@ -17,6 +19,8 @@ const App = () => (
     <CardList posts={posts} />
     <CenteredButton> Abra sua conta</CenteredButton>
     <Institutional />
+    <Faq />
+    <Footer />
   </div>
 );
 

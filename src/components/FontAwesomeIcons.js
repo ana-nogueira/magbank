@@ -8,6 +8,7 @@ import {
   faGlobe,
   faShieldAlt,
   faMobileAlt,
+  faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -18,5 +19,6 @@ library.add(
   faWallet,
   faGlobe,
   faShieldAlt,
-  faMobileAlt
+  faMobileAlt,
+  faUserTie
 );
