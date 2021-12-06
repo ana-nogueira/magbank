@@ -32,14 +32,12 @@ const Navigation = ({ handleCreateAcc }) => (
       <ButtonGroup aria-label="Basic example">
         <Button variant="outline-light">
           <NavDropdown title="Acessar minha conta" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
+            <NavDropdown.Item href="#action/3.1">
+              Pessoa Fisica
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
+            <NavDropdown.Item href="#action/3.2">
+              Pessoa Juridica
             </NavDropdown.Item>
           </NavDropdown>
         </Button>
